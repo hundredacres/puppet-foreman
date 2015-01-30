@@ -1,3 +1,5 @@
+# = Class: foreman::plugin::puppetdb
+#
 class foreman::plugin::puppetdb {
   case $::osfamily {
     RedHat: {
